@@ -1,0 +1,23 @@
+{
+  "name": "poketerkep-kml-location-importer",
+  "version": "1.0.0",
+  "description": "Poketerkep KML location importer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coldcue/poketerkep-kml-location-importer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coldcue/poketerkep-kml-location-importer/issues"
+  },
+  "homepage": "https://github.com/coldcue/poketerkep-kml-location-importer#readme",
+  "dependencies": {
+    "jsdom": "^9.4.1",
+    "togeojson": "^0.13.0"
+  }
+}
