@@ -26,13 +26,13 @@ function convertPoints() {
         if (geometry.type === "Point") {
             var point = {
                 locationId: feature.properties.name,
-                latitude: geometry.coordinates[1].toFixed(8),
-                longitude: geometry.coordinates[0].toFixed(8),
+                latitude: geometry.coordinates[1],
+                longitude: geometry.coordinates[0],
                 steps: 10,
                 lastUsed: 0
             }
             points.push(point);
-            //console.log(util.inspect(geometry, false, null));
+            console.log(util.inspect(point, false, null));
         }
     }
 
