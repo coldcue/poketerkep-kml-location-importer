@@ -29,7 +29,7 @@ function convertPoints() {
                 latitude: geometry.coordinates[1].toFixed(8),
                 longitude: geometry.coordinates[0].toFixed(8),
                 steps: 10,
-                usedBy: null
+                lastUsed: 0
             }
             points.push(point);
             //console.log(util.inspect(geometry, false, null));
